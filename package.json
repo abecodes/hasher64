@@ -1,0 +1,25 @@
+{
+  "name": "@abecodes/hasher64",
+  "version": "1.0.0",
+  "description": "zero dependencies base64 encoder and decoder for node applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --cache --reporter=text-summary mocha -R tap ./tests/**/**/*.test.js"
+  },
+  "keywords": [
+    "node",
+    "base64",
+    "hash",
+    "encode",
+    "decode",
+    "vanilla"
+  ],
+  "repository": "abecodes/hasher64",
+  "author": "abe.codes <me@abe.codes> (https://abe.codes/)",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "5.2.0",
+    "nyc": "13.1.0"
+  }
+}
